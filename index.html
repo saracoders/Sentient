@@ -1,17 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>La Hackathon</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Sentient</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/utilities.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <script type="text/javascript" src="/js/retina.js"></script> 
+
 </head>
 <body>
-    <header>
-       <nav>
-             <a href="#">About SIM</a>
-             <a href="#">Contact us</a>
-       </nav>
-       <img class="logo" src="img/logo-iconos/sentient-logo.png">
-    </header>
+  <header>
+    <a class="logo" href="index.html">Logo</a>
+    <nav id="menu">
+      <a class="nav-mobile" id="nav-mobile" href="#"></a>
+      <ul>
+        <li><a href="aboutus.html">About SIM</a></li>
+        <li><a href="index.html#contac">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero bg-img-block center-box">
+    <div class="text-hero w-60 ">
+      <h3>Sentient Investment Management Trading. Evoled</h3>
+    </div>
+    <a href="#contenido"><img src="img/logo-iconos/flecha-scroll-down-home.png"></a>
+  </section>
+
+  <section id="contenido" class="clearfix">
+    <div class="w-60 text-cont">
+      <p class="lh">Sentient Investment Management Is a San Francisco-based firm developing and applying proprietary quantitative trading and Investment strategies built using the world´s most powerful distributed artificial intelligence system.</p>
+      <h3>Sentient Investment Management is based in <br>San Francisco, C.A.</h3>
+    </div>
+    <div class="w-60 text-center clearfix">
+      <div class="descripcion">
+        <a href="aboutus.html"><img src="img/logo-iconos/AboutSIM-icon.png"></a>
+        <h2>About SIM</h2>
+        <p>Using the world´s largest evolutionary computation system and deep learning, SIM derives trading strategies from previously unseen patterns.</p>
+      </div>
+      <div class="descripcion">
+        <a href="aboutus.html#career"><img src="img/logo-iconos/Careers-icon.png"></a>
+        <h2>Careers</h2>
+        <p>Join the SIM team and drive the future of automated Al-based</p>
+      </div>
+      <div class="descripcion">
+        <a href="aboutus.html#management"><img src="img/logo-iconos/Management-icon.png"></a>
+        <h2>Management</h2>
+        <p>SIM is led by a veteran executive team which combines Wall Street and Silicon Valley expertise.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contac" class="pd-5 clearfix">
+    <div class="formulario">
+      <h2>Contact us</h2>
+      <p class="pd-5-0">If you have a quesstiom or want more information, please send us a message.</p>
+      <form class="form" >
+        <input type="text" class="name" placeholder="Name">
+        <input type="text" class="company" placeholder="Company">
+        <input type="text" class="e-mail" placeholder="E-mail">
+        <input type="text" class="mesagge" placeholder="Mesagge">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="cont-40">
+      <nav>
+        <a href="aboutus.html">About SIM</a>
+        <a href="index.html#contac">Contact us</a>
+      </nav>
+      <div class="icon-redes">
+        <a href="#"><img src="img/logo-iconos/facebook-icon-footer.png"></a>
+        <a href="#"><img src="img/logo-iconos/twitter-icon.png"></a>
+        <a href="#"><img src="img/logo-iconos/google-plus-icon.png"></a>
+      </div>
+      <div class="rel">
+        <a href="#">Privancy Policy</a>
+        <a class="linea"href="">|</a>
+        <a href="#">User Agreetment</a>
+      </div>
+      <p>© 2016 Sentient Technologies Holdings Limited. All Rights Reserved</p> 
+    </div>
+
+  </footer>
+
+  <!-- Desplegable Header -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+
+        var btn_movil = $('#nav-mobile'),
+            menu = $('#menu').find('ul');
+
+        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+        btn_movil.on('click', function (e) {
+            e.preventDefault();
+
+            var el = $(this);
+
+            el.toggleClass('nav-active');
+            menu.toggleClass('open-menu');
+        })
+
+    });
+</script>
+
 </body>
 </html>

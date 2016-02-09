@@ -1,77 +1,83 @@
-/*Global*/
-*{
-	font-family: "Latolight";
-}
+  /* GLOBAL */ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
 
 @font-face{
-	font-family: LatoHeavy;
-	src: url(../fonts/LatoHeavy.ttf);
+	font-family: bold-webfont;
+	src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
 }
 @font-face{
-	font-family: LatoHeavy;
-	src: url(../fonts/LatoHeavy.ttf);
-}
-@font-face{
-	font-family: proximanova-light-webfont;
+	font-family: light-webfont;
 	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
 }
 @font-face{
-	font-family: DolceVita;
-	src: url(../fonts/DolceVita.ttf);
+	font-family: regitalic-webfont;
+	src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
 }
-
 @font-face{
-    font-family: proximanova-regular-webfont;
+	font-family: proximanova-regular-webfont;
 	src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
 }
 @font-face{
-	font-family: Neoteric-Bold;
-	src: url(../fonts/Neoteric-Bold.ttf);
+	font-family: LatoHeavy;
+	src: url(../fonts/proxima-nova/proximanova-semibold.otf);
 }
 
-/* Shortcuts */
-
-.pd-0{
-	padding: 0;
+.bg-white{
+	background: white;	
 }
-.pt-5{
-	padding-top: 5%;
+.text-left{
+	float: left;
 }
-.pb-5{
-	padding-bottom: 5%;
-}
-.mg-0{
-	margin: 0;
-}
-.w-100{
-	width: 100%;
-}
-.lh{
-	line-height: 1.5;
+.text-right{
+	float: right;
 }
 .text-center{
 	text-align: center;
 }
-.text-left{
-	text-align: left;
+.mg-auto{
+	margin: auto;
 }
-.text-white{
-	color: white;
+.pd-2-0{
+	padding: 2% 0;
 }
-.text-gray{
-	color: rgb(83, 88, 95);
+.pd-0-2{
+	padding: 0 2%;
 }
-.text-blue{
- color: #192951;
+.pd-5{
+	padding: 5%;
 }
-.a-none-decoration{
-	text-decoration: none;
+.pd-5-0{
+	padding: 5% 0;
 }
-.bg-gray{
-	background-color: rgb(244, 244, 244);
+.pd-0-5{
+	padding: 0 5%;
 }
+.mg-0 {
+	margin: 0;
+}
+
+.lh{
+	line-height: 1.5;
+}
+
 .bg-img-block{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.center-box{
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.clearfix:after {
+	content: " ";
+	clear:both;
+	display: block;
 }

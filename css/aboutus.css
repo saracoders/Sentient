@@ -1,0 +1,277 @@
+/*Section Trading*/
+.w-70{ 
+	width: 70%;
+	margin: 0 auto;
+}
+.trading h1{
+	text-align: center;
+	font-size: 50px;
+	color: #002366;
+	padding-bottom: 5%;
+	font-family: proximanova-light-webfont;
+}
+.trading .left {
+	width: 37%;
+	float: left;
+	line-height: 1.5;
+	font-size: 24px;
+	font-family: proximanova-light-webfont;
+}
+.trading .right {
+	width: 50%;
+    float: left;
+    line-height: 1.5;
+    padding-left: 4%;
+    padding-top: 1%;
+    font-size: 14px;
+    font-family: proximanova-regular-webfont;
+}
+.trading .left blockquote:before {
+	content: url(../img/logo-iconos/quote.png);
+	margin-left: -24px;
+}
+.trading .left blockquote:after {
+	content: url(../img/logo-iconos/quote-2.png);
+}
+
+@media only screen and (max-width: 780px){
+	.trading{
+		padding: 5% 0;
+	}
+	.w-70{
+		width: 90%;
+		padding:0 5%;
+	}
+	.trading h1{
+		font-size: 30px;
+	}
+	.trading .left {
+		font-size: 15px;
+	}
+	.trading .right {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	
+	.trading .left {
+		display: block;
+    	width: 100%;
+    	text-align: center;
+	}
+	.trading .right  {
+		display: block;
+    	width: 100%;
+    	text-align: center;
+	}
+	.trading .left blockquote:before {
+		display: block;
+		text-align: center;	
+		padding: 2% 0;
+	}
+	.trading .left blockquote:after {
+		display: block;
+		text-align: center;
+		padding: 2% 0;
+	}
+}
+
+/*Section Career*/
+.w-60{ 
+	width: 60%;
+	text-align:center;
+	margin: 0 auto;
+}
+#career {
+	background-image: url(../img/background-about-us.jpg);
+    width: 100%;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 5% 0;
+    color: white;
+}
+#career .left {
+	width: 75%;
+	float: left;
+	line-height: 1.5;
+	font-size: 18px;
+	padding-right: 5%;
+	font-family: font-family: proximanova-light-webfont;
+}
+#career .right {
+	width: 25%;
+    float: left;
+    line-height: 1.5;
+    font-size: 19px;
+}
+#career h1 {
+	font-size: 40px;
+	font-family: proximanova-light-webfont;
+	font-weight: normal;
+}
+#career p.cont{
+	font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 5%;
+    font-family: proximanova-regular-webfont;
+}
+#career .bt-read{
+	text-decoration: none;
+    color: white;
+    padding: 3% 5%;
+    background: #002366;
+    display: block;
+    margin: 3% auto;
+    width: 50%;
+    font-size: 21px;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 780px){
+	.w-60{
+		width: 95%;
+	}
+	#career p.cont{
+	font-size: 22px;
+    }
+    #career .left p{
+	font-size: 22px !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+	#career .left {
+		width: 100%;
+	}
+	#career .right {
+		width: 100%;
+    	margin: 6% 0 5%;
+	}
+}
+
+#career .right a{
+	padding: 5%;
+    width: 100%;
+    min-height: 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#career .left p {
+	font-size: 25px;
+    text-align: left;
+    margin: 0;
+}
+#career .up{
+	background: #179AD6;
+	border-radius: 5%;
+}
+#career .down{
+	background: transparent;
+	border: 1px white solid;
+	border-radius: 5%;
+} 
+/*Section  Management*/
+#management {
+	padding: 4%;
+	text-align:center;
+	background: #E5E5E5;
+}
+#management h1{
+	font-size: 30px;
+	padding: 2% 0;
+	color: #002366;
+	font-family: proximanova-light-webfont;
+	font-size: 50px;
+	font-weight: normal;
+}
+#management .text-manag h4{
+	font-size: 21px;
+    padding: 5% 8%;
+    color: #002366;
+    font-family: proximanova-regular-webfont;
+}
+
+#management .text-manag p{
+    line-height: 1.5;
+    font-size: 23px;
+    font-family: proximanova-light-webfont;
+}
+
+#management .text-manag a{
+	width: 30%;
+    background: #179AD6;
+    display: block;
+    padding: 2% 0;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 10%;
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#management .people {
+    min-height: 150px;
+    margin: 0 2%;
+    float: left;
+    border: 1px white solid;
+
+
+}
+.team {
+	color: #002366;
+	font-family: proximanova-regular-webfont;
+	font-size: 25px;
+}
+#management .aaa .people {
+    width: 45%;
+}
+#management .bbb .people {
+    width: 29%;
+}
+
+#management .people img{
+	width: 100%;
+}
+
+#management .aaa {
+	padding: 0 23%;
+}
+#management .bbb{
+	padding: 0 7%;
+}
+.bbb, .aaa{
+	margin: 5% 0;
+	width: 100%;
+}
+
+#management .des-manag {
+	width: 100%;
+    background: white;
+    font-size: 12px;
+}
+.centro {
+	height: 50px;
+	background:white;
+}
+
+@media only screen and (max-width: 780px){
+}
+@media only screen and (max-width: 500px){
+	#management .aaa .people {
+    	width: 80%;
+    	margin: 3% 10%;
+	}
+	#management .bbb .people {
+	    width: 80%;
+	    margin: 3% 10%;
+	}
+	#management .aaa{
+    	padding: 0;
+	}
+	#management .bbb{
+		padding: 0;
+	}
+	
+}

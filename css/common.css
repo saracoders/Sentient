@@ -1,1 +1,147 @@
-/* Inserta tu codigo que es común para todas las páginas aqui */
+/*Header*/
+header{
+    background: white;
+    height:60px;
+    position: relative;
+    width: 100%;
+} 
+.logo{
+	background: url(../img/logo-iconos/sentient-logo.png) no-repeat 0 0;
+  display: block;
+  float: left;
+  margin: -6px 10px 0;
+	width: 190px;
+	height: 60px;
+  text-indent: -9999px
+}
+#menu{ 
+	float: right;
+}
+#menu ul{
+	margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+#menu li{
+	display: block;
+  float: left;
+  text-align: center;
+}
+#menu li a{
+	display: block;
+  color: black;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 26px;
+}
+#menu li a:hover{
+  background: #002366;
+	color: #fff;
+}
+#nav-mobile{
+	display: none;
+  background: url(../img/logo-iconos/nav.png) no-repeat center center;
+  float: right;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  top:0;
+  opacity: .6;
+}
+ #nav-mobile.nav-active{
+	opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+	#nav-mobile{ display: block;
+		}
+	#menu{
+		width: 100%;
+	  float: none;
+	  padding-top: 60px;
+	}
+	#menu ul{
+		box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	  max-height: 0;
+	  overflow: hidden;
+	}
+	#menu li{
+		background: white;
+	  float: none;
+	}
+	#menu li:last-child{ 
+		border-bottom: 0;
+	}
+	#menu li a{
+		padding: 15px 0;
+	  height: auto;
+	  line-height: normal;
+	}
+	#menu li a:hover{
+		background:#002366
+	}
+	#menu ul.open-menu{
+		max-height: 400px;
+	  transition: max-height .4s;
+	}
+}
+
+/*Footer*/
+
+footer {
+	background: white;
+}
+footer .cont-40{
+	width: 40%;
+    padding: 2% 0;
+    margin: auto;
+    text-align: center;
+}
+footer .cont-40 nav a{
+	text-decoration: none;
+	padding: 0 7%;
+	color: black;
+}
+.cont-40 .icon-redes img{
+	display: inline-block;
+    margin: 7% 2%;
+}
+footer .rel a{
+	text-decoration: none;
+	color: #606060;
+}
+footer .rel a.linea{
+ 	margin: 0 2%;
+}
+footer .cont-40 p{
+	font-size: 10px;
+    margin: 5% 0;
+    color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
