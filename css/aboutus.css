@@ -8,7 +8,8 @@
 	font-size: 50px;
 	color: #002366;
 	padding-bottom: 5%;
-	font-family: proximanova-light-webfont;
+	font-family: proximanova-regular-webfont;
+	font-size: 50px;
 }
 .trading .left {
 	width: 37%;
@@ -96,9 +97,8 @@
 	width: 75%;
 	float: left;
 	line-height: 1.5;
-	font-size: 18px;
+	font-size: 20px;
 	padding-right: 5%;
-	font-family: font-family: proximanova-light-webfont;
 }
 #career .right {
 	width: 25%;
@@ -107,15 +107,12 @@
     font-size: 19px;
 }
 #career h1 {
-	font-size: 40px;
-	font-family: proximanova-light-webfont;
-	font-weight: normal;
+	font-size: 30px;
 }
 #career p.cont{
-	font-size: 15px;
+	font-size: 21px;
     line-height: 1.5;
-    padding-bottom: 5%;
-    font-family: proximanova-regular-webfont;
+    padding-bottom: 3%;
 }
 #career .bt-read{
 	text-decoration: none;
@@ -125,8 +122,7 @@
     display: block;
     margin: 3% auto;
     width: 50%;
-    font-size: 21px;
-    border-radius: 7px;
+    font-size: 18px;
 }
 @media only screen and (max-width: 780px){
 	.w-60{
@@ -172,6 +168,7 @@
 	border: 1px white solid;
 	border-radius: 5%;
 } 
+
 /*Section  Management*/
 #management {
 	padding: 4%;
@@ -182,7 +179,7 @@
 	font-size: 30px;
 	padding: 2% 0;
 	color: #002366;
-	font-family: proximanova-light-webfont;
+	font-family: proximanova-regular-webfont;
 	font-size: 50px;
 	font-weight: normal;
 }

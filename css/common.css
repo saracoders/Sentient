@@ -2,7 +2,7 @@
 header{
     background: white;
     height:60px;
-    position: relative;
+    position: fixed;
     width: 100%;
 } 
 .logo{

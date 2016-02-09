@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sentient</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/persona-1.css">
+  <link rel="stylesheet" type="text/css" href="css/utilities.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <script type="text/javascript" src="/js/retina.js"></script> 
+
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">Logo</a>
+    <nav id="menu">
+      <a class="nav-mobile" id="nav-mobile" href="#"></a>
+      <ul>
+        <li><a href="aboutus.html">About SIM</a></li>
+        <li><a href="index.html#contac">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="information">
+    <hr>
+    <div class="cont-inf w-60">
+      <h1>Antoine Blondeau</h1>
+      <h3>Co-founder</h3>
+      <img src="img/interna-foto-1.jpg">
+      <p>Antoine Blondeau is a co-founder and xxx of Sentient Investment Management, es well as a co-founder and chief executive officer of its company. Sentient Technologies. A seasoned entrepreneur and investor, Antoine has 25 years of experience in tha technology industry, having held senior leadership positions at Good Technology, Salesforce.com and Sybase.</p>
+      <p>Antoine's career highlights include leading Dejima as CEO, the company that powered DARPA's foundational CALOproyect that later evolved into Apple's Siri. He was also chief operating officer of Zi Corporation, whose smart text input software was embedded in hundreds of millions of devices. Antoine is an investor, board member and advisor in a number of companiesin California, Greater China and Japan, and is the author or co-author of 5 patents</p>
+      <p>He holds a MBA from the Paris Graduate Schol of Management (ESCP) and has studied at the faculties of Economics and Commerce of Chuo University in Tokyo.</p>
+    </div>
+    <hr>
+   </section> 
+  <footer>
+    <div class="cont-40">
+      <nav>
+        <a href="aboutus.html">About SIM</a>
+        <a href="index.html#contac">Contact us</a>
+      </nav>
+      <div class="icon-redes">
+        <a href="#"><img src="img/logo-iconos/facebook-icon-footer.png"></a>
+        <a href="#"><img src="img/logo-iconos/twitter-icon.png"></a>
+        <a href="#"><img src="img/logo-iconos/google-plus-icon.png"></a>
+      </div>
+      <div class="rel">
+        <a href="#">Privancy Policy</a>
+        <a class="linea"href="">|</a>
+        <a href="#">User Agreetment</a>
+      </div>
+      <p>© 2016 Sentient Technologies Holdings Limited. All Rights Reserved</p> 
+    </div>
+
+  </footer>
+
+  <!-- Desplegable Header -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+
+        var btn_movil = $('#nav-mobile'),
+            menu = $('#menu').find('ul');
+
+        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+        btn_movil.on('click', function (e) {
+            e.preventDefault();
+
+            var el = $(this);
+
+            el.toggleClass('nav-active');
+            menu.toggleClass('open-menu');
+        })
+
+    });
+</script>
+
+</body>
+</html>
